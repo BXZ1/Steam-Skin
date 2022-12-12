@@ -17,4 +17,4 @@ jobs:
           upstream_repo: https://github.com/tkashkin/Adwaita-for-Steam # change this
           upstream_branch: master # change this
           downstream_branch: adwaita # change this
-          token: ${{ secrets.GH_PAT }}
+          token: ${{ secrets.WORKFLOW_TOKEN }}
