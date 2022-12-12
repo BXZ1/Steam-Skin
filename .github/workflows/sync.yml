@@ -1,13 +1,13 @@
-name: Sync and merge upstream repository with your current repository
+- name: Sync and merge upstream repository with your current repository
   # You may pin to the exact commit or the version.
-  # uses: dabreadman/sync-upstream-repo@e95e4f60387f27f9fa79a3f59b3c5591ddc4271e
-uses: dabreadman/sync-upstream-repo@v1.0.0.b
+  # uses: dabreadman/sync-upstream-repo@f61088b9adb9220c5d518a405cd1ab52c0500e4d
+  uses: dabreadman/sync-upstream-repo@v1.2.0.b
   with:
     # URL of gitHub public upstream repo
     upstream_repo: https://github.com/tkashkin/Adwaita-for-Steam
     # Branch to merge from upstream (defaults to downstream branch)
     upstream_branch: master
     # Branch to merge into downstream
-    downstream_branch: adwaita 
+    downstream_branch: adwaita
     # GitHub Bot token
-    token: ${{ secrets.WORKFLOW_TOKEN }}
+    token: ${{ env.WORKFLOW_TOKEN }}
