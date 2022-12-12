@@ -9,7 +9,7 @@ env:
   # Optional, defaults to main
   UPSTREAM_BRANCH: "master"
   # Optional, defaults to UPSTREAM_BRANCH
-  DOWNSTREAM_BRANCH: "adwaita2"
+  DOWNSTREAM_BRANCH: "adwaita-m"
   # Optional fetch arguments
   FETCH_ARGS: ""
   # Optional merge arguments
