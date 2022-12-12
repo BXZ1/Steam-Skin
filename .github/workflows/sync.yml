@@ -16,4 +16,4 @@ jobs:
           upstream_repo: https://github.com/tkashkin/Adwaita-for-Steam
           upstream_branch: master
           downstream_branch: adwaita
-          token: ${{ env.WORKFLOW_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
