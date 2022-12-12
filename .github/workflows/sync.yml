@@ -13,9 +13,9 @@ env:
   # Optional fetch arguments
   FETCH_ARGS: ""
   # Optional merge arguments
-  MERGE_ARGS: ""
+  MERGE_ARGS: "--allow-unrelated-histories"
   # Optional push arguments
-  PUSH_ARGS: "--allow-unrelated-histories"
+  PUSH_ARGS: ""
   # Optional toggle to spawn time logs (keeps action active) 
   SPAWN_LOGS: "false" # "true" or "false"
 
