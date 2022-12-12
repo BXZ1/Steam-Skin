@@ -1,33 +1,13 @@
-name: Sync Upstream
-
-env:
-  # Required, URL to upstream (fork base)
-  UPSTREAM_URL: "https://github.com/tkashkin/Adwaita-for-Steam.git"
-  # Required, token to authenticate bot, could use ${{ secrets.GITHUB_TOKEN }} 
-  # Over here, we use a PAT instead to authenticate workflow file changes.
-  WORKFLOW_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
-  # Optional, defaults to main
-  UPSTREAM_BRANCH: "master"
-  # Optional, defaults to UPSTREAM_BRANCH
-  DOWNSTREAM_BRANCH: "adwaita"
-  # Optional toggle to spawn time logs (keeps action active) 
-  SPAWN_LOGS: "true" # "true" or "false"
-
-# This runs every day on 1801 UTC
-on:
-  schedule:
-    - cron: '1 18 * * *'
-  # Allows manual workflow run (must in default branch to work)
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: GitHub Sync to Upstream Repository
-        uses: dabreadman/sync-upstream-repo@v1.1.0.b
-        with: 
-          upstream_repo: ${{ env.UPSTREAM_URL }}
-          upstream_branch: ${{ env.UPSTREAM_BRANCH }}
-          downstream_branch: ${{ env.DOWNSTREAM_BRANCH }}
-          token: ${{ env.WORKFLOW_TOKEN }}
+name: Sync and merge upstream repository with your current repository
+  # You may pin to the exact commit or the version.
+  # uses: dabreadman/sync-upstream-repo@e95e4f60387f27f9fa79a3f59b3c5591ddc4271e
+uses: dabreadman/sync-upstream-repo@v1.0.0.b
+  with:
+    # URL of gitHub public upstream repo
+    upstream_repo: https://github.com/tkashkin/Adwaita-for-Steam
+    # Branch to merge from upstream (defaults to downstream branch)
+    upstream_branch: master
+    # Branch to merge into downstream
+    downstream_branch: adwaita 
+    # GitHub Bot token
+    token: ${{ secrets.WORKFLOW_TOKEN }}
