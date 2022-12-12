@@ -18,3 +18,4 @@ jobs:
           upstream_branch: master # change this
           downstream_branch: adwaita # change this
           token: ${{ secrets.WORKFLOW_TOKEN }}
+          merge_args: allow-unrelated-histories
