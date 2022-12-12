@@ -1,19 +1,27 @@
-name: Sync Upstream
+name: Clone Public Repository Workflow
 
 on:
+  push:
   schedule:
-    - cron: '1 18 * * *'
-  # Allows manual workflow run (must in default branch to work)
+    - cron: '0 3 * * *'
   workflow_dispatch:
-  
+
 jobs:
-  build:
+    
+  job-public-repo-ubuntu:
     runs-on: ubuntu-latest
     steps:
-      - name: GitHub Sync to Upstream Repository
-        uses: dabreadman/sync-upstream-repo@v1.2.0.b
-        with: 
-          upstream_repo: https://github.com/tkashkin/Adwaita-for-Steam
-          upstream_branch: master
-          downstream_branch: adwaita
-          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Clone GuillaumeFalourd/poc-github-actions PUBLIC repository
+        uses: GuillaumeFalourd/clone-github-repo-action@v2
+        with:
+          owner: 'tkashkin'
+          repository: 'Adwaita-for-Steam'
+      
+      - name: Access cloned repository content
+        run: |
+          echo "ROOT"
+          ls -la
+          echo "CLONED REPO"
+          cd poc-github-actions
+          ls -la
