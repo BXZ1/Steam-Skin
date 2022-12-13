@@ -1,0 +1,4 @@
+# Exclude these files in the archive
+.gitattributes      export-ignore
+.github             export-ignore
+README.md           export-ignore
