@@ -16,5 +16,5 @@ jobs:
           target_repository:  BXZ1/Steam-Skin
           upstream_branch: master
           target_branch: sync-adwaita
-          force: true
+          force: false
           tags: true
