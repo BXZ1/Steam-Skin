@@ -1,0 +1,20 @@
+name: Sync IN
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'
+  workflow_dispatch:
+  
+jobs:
+  sync_adwaita_with_source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: TobKed/github-forks-sync-action@master
+        with:
+          github_token: ${{ secrets.WORKFLOW_TOKEN }}
+          upstream_repository: tkashkin/Adwaita-for-Steam
+          target_repository:  BXZ1/Steam-Skin
+          upstream_branch: master
+          target_branch: sync-adwaita
+          force: true
+          tags: true
