@@ -1,0 +1,39 @@
+name: Sync OUT
+
+on:
+  push:
+    branches:
+      - 'sync-adwaita'
+      - 'dev'
+    paths-ignore:
+      - 'Adwaita-for-Steam-master/*'
+    
+jobs:
+  Sync_Adwaita_and_Apply_Edits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 
+        uses: actions/checkout@v3
+
+      - name: Delete Previous Version of Adwaita
+        uses: EndBug/add-and-commit@v9
+        with:
+          remove: './Adwaita-for-Steam-master/ -r --force'
+          
+      - name: Download and Extract New Version
+        uses: stfnr/action-wget-unzip@v2.1
+        with:
+          url: 'https://github.com/tkashkin/Adwaita-for-Steam/archive/refs/heads/master.zip'
+          destination: ./
+          
+      - name: Commit Changes to Dev Branch
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: '🔄 Auto Synced to latest Adwaita'
+          push: true
+        
+      - name: Add Edits and Sync to Main
+        uses: BetaHuhn/repo-file-sync-action@v1
+        with:
+          GH_PAT: ${{ secrets.WORKFLOW_TOKEN }}
+          SKIP_PR: true
