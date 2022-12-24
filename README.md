@@ -2,12 +2,14 @@
 
 
 ### Requirements ✔️
-* [Steam Friends Patcher](https://github.com/PhantomGamers/SFP/releases/latest) by PhantomGamers 
+1. [Segoe UI Variable Font](https://aka.ms/SegoeUIVariable) (**Not required** if you have Windows 11)
+2. [Steam Friends Patcher](https://github.com/PhantomGamers/SFP/releases/latest) by PhantomGamers 
 
 ### Installation 💾
 1. [Download](https://github.com/BXZ1/Steam-Skin/archive/master.zip) the latest skin version
 2. Extract the folders to your Steam directory `C:\Program Files (x86)\Steam`
 3. Open Steam and select `Adwaita` skin in Settings > Interface (restart Steam if it doesn't appear in the list)
+4. Run the Patcher
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/tkashkin/Adwaita-for-Steam/master/screenshot.png" width="600"/>
