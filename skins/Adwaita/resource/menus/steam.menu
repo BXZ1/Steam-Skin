@@ -4,6 +4,10 @@ menubar
 	{
 		text=""
 
+		SkinVersion			{ text="Adwaita for Steam v0.29" shellcmd="steam://openurl/https://github.com/tkashkin/Adwaita-for-Steam" }
+
+		Divider				{}
+
 		ViewFriends			{ text="#steam_menu_view_friends" shellcmd="steam://open/friends" }
 		ViewPlayerList		{ text="#steam_menu_view_players" shellcmd="steam://friends/players" }
 		
@@ -22,7 +26,6 @@ menubar
 		RedeemWalletVoucher	{ text="#Steam_RedeemWalletVoucher" shellcmd="steam://url/RedeemWalletVoucher" }
 		ManageGuestPasses	{ text="#Steam_ManageGuestPasses" command="ManageGuestPasses" }
 		AddShortcut			{ text="#Steam_menu_AddShortcut" shellcmd="steam://AddNonSteamGame" }
-		Hidden 				{ text="#steam_menu_hidden_games" shellcmd="steam://nav/library/collection/hidden" }
 
 		Divider				{}
 
