@@ -1,13 +1,6 @@
 name: Sync OUT
 
 on:
-
-  push:
-    branches:
-      - 'sync-adwaita'
-      - 'dev'
-    paths-ignore:
-      - 'Adwaita-for-Steam-master/*'
   workflow_dispatch:
     
 jobs:
