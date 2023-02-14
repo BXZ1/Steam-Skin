@@ -4,6 +4,7 @@
 @import '/css-adwaita/base/4_collections.css';
 @import '/css-adwaita/base/5_game_details.css';
 @import '/css-adwaita/base/6_downloads.css';
+@import '/css-adwaita/base/7_dialogs.css';
 @import '/css-adwaita/base/9_scrollbars.css';
 @import '/css-adwaita/base/10_new_login.css';
 @import '/css-adwaita/base/11_launch_options.css';
@@ -21,6 +22,8 @@
 /* @import '/css-adwaita/extras/login/hide_qr.css'; */
 /* @import '/css-adwaita/extras/login/hover_qr.css'; */
 /* @import '/css-adwaita/extras/windowcontrols/hide-close.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/left.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/left-all.css'; */
 /* @import '/css-adwaita/extras/windowcontrols/right-all.css'; */
 
 /* ======== EDITS ======== */
