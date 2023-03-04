@@ -32,4 +32,5 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.WORKFLOW_TOKEN }}
+          CONFIG_PATH: file-sync-rules.yml
           SKIP_PR: true
