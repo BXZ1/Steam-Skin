@@ -1,1 +1,1 @@
-[![Sync IN](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync-IN.yml/badge.svg)](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync-IN.yml) [![Sync OUT](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync-OUT.yml/badge.svg)](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync-OUT.yml)
+[![Sync](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync.yml/badge.svg)](https://github.com/BXZ1/Steam-Skin/actions/workflows/Sync.yml)
