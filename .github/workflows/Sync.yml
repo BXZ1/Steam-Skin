@@ -32,5 +32,6 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.WORKFLOW_TOKEN }}
+          GIT_EMAIL: ${{ secrets.GIT_EMAIL }}
           CONFIG_PATH: sync-rules.yml
           SKIP_PR: true
