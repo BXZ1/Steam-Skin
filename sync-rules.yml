@@ -2,14 +2,10 @@ BXZ1/Steam-Skin:
   - source: Adwaita-for-Steam-master/Adwaita/
     dest: skins/Adwaita/
     deleteOrphaned: true
-  - source: Adwaita-for-Steam-master/extras/web/base/
-    dest: steamui/css-adwaita/base
+  - source: Adwaita-for-Steam-master/extras/web/
+    dest: steamui/css-adwaita/
     deleteOrphaned: true
-  - source: Adwaita-for-Steam-master/extras/web/extras/
-    dest: steamui/css-adwaita/extras
-    deleteOrphaned: true
-  - source: Adwaita-for-Steam-master/extras/web/full
-    dest: steamui/css-adwaita/full
-    deleteOrphaned: true
+    exclude: |
+      README.md
   - source: Edits/Adwaita/
     dest: skins/Adwaita/
