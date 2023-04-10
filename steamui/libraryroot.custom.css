@@ -1,30 +1,31 @@
 /* ======== BASE ======== */
-@import '/css-adwaita/base/1_root.css';
-@import '/css-adwaita/base/3_library.css';
-@import '/css-adwaita/base/4_collections.css';
-@import '/css-adwaita/base/5_game_details.css';
-@import '/css-adwaita/base/6_downloads.css';
-@import '/css-adwaita/base/7_dialogs.css';
-@import '/css-adwaita/base/9_scrollbars.css';
-@import '/css-adwaita/base/10_new_login.css';
-@import '/css-adwaita/base/11_launch_options.css';
+@import '/css-adwaita/base/_root.css';
+@import '/css-adwaita/base/scrollbars.css';
+@import '/css-adwaita/base/collections.css';
+@import '/css-adwaita/base/downloads.css';
+@import '/css-adwaita/base/game_details.css';
+@import '/css-adwaita/base/library.css';
+@import '/css-adwaita/base/dialogs/_dialogs.css';
+@import '/css-adwaita/base/dialogs/launch_options.css';
+@import '/css-adwaita/base/dialogs/login.css';
 
 /* ======== FULL ======== */
-@import '/css-adwaita/full/2_global.css';
-@import '/css-adwaita/full/3_library.css';
-@import '/css-adwaita/full/5_game_details.css';
-@import '/css-adwaita/full/6_downloads.css';
-@import '/css-adwaita/full/7_dialogs.css';
-@import '/css-adwaita/full/12_content_management.css';
+@import '/css-adwaita/full/downloads.css';
+@import '/css-adwaita/full/game_details.css';
+@import '/css-adwaita/full/library.css';
+@import '/css-adwaita/full/web.css';
+@import '/css-adwaita/full/dialogs/_dialogs.css';
+@import '/css-adwaita/full/dialogs/app_properties.css';
+@import '/css-adwaita/full/dialogs/content_management.css';
+@import '/css-adwaita/full/dialogs/paged_settings.css';
+@import '/css-adwaita/full/dialogs/uninstall.css';
+@import '/css-adwaita/full/dialogs/whats_new.css';
 
 /* ======== EXTRAS ======== */
 @import '/css-adwaita/extras/library/hide_whats_new.css';
+/* @import '/css-adwaita/extras/library/sidebar_hover.css'; */
 /* @import '/css-adwaita/extras/login/hide_qr.css'; */
 /* @import '/css-adwaita/extras/login/hover_qr.css'; */
-/* @import '/css-adwaita/extras/windowcontrols/hide-close.css'; */
-/* @import '/css-adwaita/extras/windowcontrols/left.css'; */
-/* @import '/css-adwaita/extras/windowcontrols/left-all.css'; */
-/* @import '/css-adwaita/extras/windowcontrols/right-all.css'; */
 
 /* ======== EDITS ======== */
 :root
