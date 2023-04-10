@@ -43,7 +43,7 @@ uistatuspanel.layout
 				6="image(x0+28, y0+28, x0+34, y0+34, assets/corners/6_w30/br)"
 			}
 		}
-
+		
 		SlimProgressBar
 		{
 			bgcolor=none
