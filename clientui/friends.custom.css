@@ -1,11 +1,11 @@
-@import url(https://ccss.lasr.dev/src/baseTheme.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/avatarStyle/roundAvatar.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/avatarStatus/discordStatus.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/colourSet/darkMode.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/miniProfile/miniProfileSolid.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/statusGlow/themedGlow.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/shadowEffects/noShadow.css);
-@import url(https://ccss.lasr.dev/src/css/customisable/avatarFrame/disable.css);
+@import url(https://ccss.lasr.dev/friends-client/friends-client.css);
+@import url(https://ccss.lasr.dev/friends-client/colourSet/darkMode.css);
+@import url(https://ccss.lasr.dev/friends-client/avatarStyle/roundAvatar.css);
+@import url(https://ccss.lasr.dev/friends-client/avatarStatus/discordStatus.css);
+@import url(https://ccss.lasr.dev/friends-client/miniProfile/miniProfileSolid.css);
+@import url(https://ccss.lasr.dev/friends-client/statusGlow/themedGlow.css);
+@import url(https://ccss.lasr.dev/friends-client/shadowEffects/noShadow.css);
+@import url(https://ccss.lasr.dev/friends-client/avatarFrame/disable.css);
 
 /* ======== EDITS ======== */
 .offline .avatarStatus,
