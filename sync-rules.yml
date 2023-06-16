@@ -1,5 +1,5 @@
 BXZ1/Steam-Skin:
-  - source: Adwaita-for-Steam-master/extras/web/
+  - source: Adwaita-for-Steam-master/web/
     dest: steamui/css-adwaita/
     deleteOrphaned: true
     exclude: |
