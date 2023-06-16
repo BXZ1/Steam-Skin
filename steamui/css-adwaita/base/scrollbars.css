@@ -1,12 +1,6 @@
 /* ------------------ */
 /* --- Scrollbars --- */
 /* ------------------ */
-
-body
-{
-	overflow: overlay !important;
-}
-
 ::-webkit-scrollbar
 {
 	background: none !important;

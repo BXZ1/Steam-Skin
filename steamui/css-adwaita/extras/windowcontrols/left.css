@@ -7,6 +7,16 @@
 	right: auto !important;
 }
 
+#SteamDesktop .steamdesktop_TopBar_3Z7VQ div[class*="steamdesktop_WindowControls_"]
+{
+	order: -1 !important;
+}
+
+#SteamDesktop .steamdesktop_TopBar_3Z7VQ div[class*="supernav_SuperNav_"] svg[class*="supernav_Arrow_"]:first-child
+{
+	margin-left: 50px !important;
+}
+
 /* App Properties Titles */
 .ModalDialogPopup [class*="pagedsettings_PagedSettingsDialog_PageListColumn_"] > [class*="pagedsettings_PagedSettingsDialog_Title_"]
 {
@@ -25,7 +35,7 @@
 }
 
 /* Content Management */
-[class*="contentmanagement_ContentManagement_"] [class*="contentmanagement_PageableCarousel_"]
+.ModalDialogPopup [class*="contentmanagement_ContentManagement_"] [class*="contentmanagement_PageableCarousel_"]
 {
 	margin-left: 70px !important;
 }
