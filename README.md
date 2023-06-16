@@ -10,6 +10,6 @@
 </p>
 
 ### Credits ⭐
-* [Steam Friends Patcher](https://github.com/PhantomGamers/SFP/releases/latest) by PhantomGamers
+* [Steam Friends Patcher](https://github.com/PhantomGamers/SFP) by PhantomGamers
 * [Adwaita for Steam](https://github.com/tkashkin/Adwaita-for-Steam) by AnatoliyKashkin
 * [Steam Chat Skin](https://github.com/LaserFlash/steam-chat-skin) by LaserFlash
