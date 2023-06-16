@@ -1,10 +1,14 @@
 /* ======== BASE ======== */
 @import '/css-adwaita/base/_root.css';
-@import '/css-adwaita/base/scrollbars.css';
+@import '/css-adwaita/base/bottom_bar.css';
 @import '/css-adwaita/base/collections.css';
 @import '/css-adwaita/base/downloads.css';
 @import '/css-adwaita/base/game_details.css';
+@import '/css-adwaita/base/game_overlay.css';
 @import '/css-adwaita/base/library.css';
+@import '/css-adwaita/base/notifications.css';
+@import '/css-adwaita/base/scrollbars.css';
+@import '/css-adwaita/base/top_bar.css';
 @import '/css-adwaita/base/dialogs/_dialogs.css';
 @import '/css-adwaita/base/dialogs/launch_options.css';
 @import '/css-adwaita/base/dialogs/login.css';
@@ -15,22 +19,42 @@
 @import '/css-adwaita/full/library.css';
 @import '/css-adwaita/full/web.css';
 @import '/css-adwaita/full/dialogs/_dialogs.css';
+@import '/css-adwaita/full/dialogs/about_steam.css';
+@import '/css-adwaita/full/dialogs/add_game.css';
 @import '/css-adwaita/full/dialogs/app_properties.css';
 @import '/css-adwaita/full/dialogs/content_management.css';
+@import '/css-adwaita/full/dialogs/install_game.css';
 @import '/css-adwaita/full/dialogs/paged_settings.css';
+@import '/css-adwaita/full/dialogs/product_activation.css';
+@import '/css-adwaita/full/dialogs/recent_players.css';
+@import '/css-adwaita/full/dialogs/screenshots.css';
+@import '/css-adwaita/full/dialogs/server_browser.css';
+@import '/css-adwaita/full/dialogs/steam_settings.css';
+@import '/css-adwaita/full/dialogs/system_information.css';
 @import '/css-adwaita/full/dialogs/uninstall.css';
 @import '/css-adwaita/full/dialogs/whats_new.css';
 
 /* ======== EXTRAS ======== */
+@import '/css-adwaita/extras/bottombar/hide_bar.css';
+/* @import '/css-adwaita/extras/general/no_rounded_corners.css'; */
 @import '/css-adwaita/extras/library/hide_whats_new.css';
 /* @import '/css-adwaita/extras/library/sidebar_hover.css'; */
 /* @import '/css-adwaita/extras/login/hide_qr.css'; */
 /* @import '/css-adwaita/extras/login/hover_qr.css'; */
+@import '/css-adwaita/extras/topbar/hide_bp.css';
+/* @import '/css-adwaita/extras/topbar/hide_url.css'; */
+/* @import '/css-adwaita/extras/topbar/show_arrows.css'; */
+/* @import '/css-adwaita/extras/topbar/vanilla_bar.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/dots.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/hide-close.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/left.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/left-all.css'; */
+/* @import '/css-adwaita/extras/windowcontrols/right-all.css'; */
 
 /* ======== EDITS ======== */
 :root
 {
-	--basefont: "Calibri";
+	--basefont: "Trebuchet MS";
 }
 
 
