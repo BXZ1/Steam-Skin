@@ -54,9 +54,13 @@
 /* ======== EDITS ======== */
 :root
 {
-	--basefont: "Segoe UI Variable Display Semibold";
+  --basefont: "Segoe UI Variable Display Semibold";
 }
 
+#SteamDesktop div.steamdesktop_RootMenuBar_3s0lk > div:nth-child(5)
+{
+  display: none;
+}
 
 /* ======== CREDITS ======== */
 /* Anatoliy Kashkin | Github.com/tkashkin/Adwaita-for-Steam
