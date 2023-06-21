@@ -1,5 +1,5 @@
 ### Installation 💾
-1. [Download](https://aka.ms/SegoeUIVariable) and install the `SegoeUI-VF` Font (**Not required** if you have Windows 11)
+1. Install the [SegoeUI-VF](https://aka.ms/SegoeUIVariable) Font (**Not required** if you have Windows 11)
 2. [Download](https://github.com/BXZ1/Steam-Skin/archive/master.zip) the latest skin version
 3. Extract the zip and move the `steamui` folder to your Steam directory `C:\Program Files (x86)\Steam`
 4. Run the [Steam Friends Patcher](https://github.com/PhantomGamers/SFP/releases/latest) to apply the changes
