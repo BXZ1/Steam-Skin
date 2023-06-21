@@ -43,7 +43,7 @@
 /* @import '/css-adwaita/extras/login/hover_qr.css'; */
 @import '/css-adwaita/extras/topbar/hide_bp.css';
 /* @import '/css-adwaita/extras/topbar/hide_url.css'; */
-/* @import '/css-adwaita/extras/topbar/show_arrows.css'; */
+@import '/css-adwaita/extras/topbar/show_arrows.css';
 /* @import '/css-adwaita/extras/topbar/vanilla_bar.css'; */
 /* @import '/css-adwaita/extras/windowcontrols/dots.css'; */
 /* @import '/css-adwaita/extras/windowcontrols/hide-close.css'; */
@@ -54,7 +54,7 @@
 /* ======== EDITS ======== */
 :root
 {
-	--basefont: "Trebuchet MS";
+	--basefont: "Segoe UI Variable Display Semibold";
 }
 
 
