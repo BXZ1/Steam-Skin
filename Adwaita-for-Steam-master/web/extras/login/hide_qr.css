@@ -1,8 +1,0 @@
-/* ---------------------- */
-/* --- Hide QR Login  --- */
-/* ---------------------- */
-body.DesktopUI .login_Login_VZ6x_ [class*="newlogindialog_QRSection_"]
-{
-	display: none !important;
-}
-
